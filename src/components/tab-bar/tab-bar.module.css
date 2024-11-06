@@ -1,0 +1,31 @@
+.tab_bar__container{
+    height: 60px;
+    width: 100%;
+    display: none;
+    background-color: rgb(44, 42, 42);
+    position: fixed;
+    bottom: 0;
+    padding: 0 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 500;
+}
+.mobile_pedido{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal_carrinho{
+    height: 700px;
+}
+
+@media (max-width:660px) {
+    .tab_bar__container{
+        display: flex;
+    }
+
+    .tab_bar__container svg{
+        color: rgb(77, 252, 64);
+    }
+}
